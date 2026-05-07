@@ -1,0 +1,88 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bedirhan's Ubuntu terminal workspace</title>
+  <desc id="desc">A clean Ubuntu terminal themed GitHub profile banner with zsh commands for Django, Svelte, Rust, and cybersecurity.</desc>
+  <defs>
+    <linearGradient id="ubuntu" x1="132" y1="64" x2="1068" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A2F"/>
+      <stop offset="0.48" stop-color="#031226"/>
+      <stop offset="1" stop-color="#010716"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="180" y1="124" x2="1020" y2="426" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06182D"/>
+      <stop offset="1" stop-color="#010512"/>
+    </linearGradient>
+    <filter id="shadow" x="-8%" y="-10%" width="116%" height="120%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .title { fill: #F7F1E6; font: 800 38px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+      .sub { fill: #AFC0D2; font: 500 17px Inter, ui-sans-serif, system-ui, sans-serif; letter-spacing: 0; }
+      .bar { fill: #BBCDE0; font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; letter-spacing: 0; }
+      .term { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; letter-spacing: 0; }
+      .tiny { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; letter-spacing: 0; }
+      .prompt-user { fill: #86EFAC; }
+      .prompt-path { fill: #F8D66D; }
+      .prompt-branch { fill: #67E8F9; }
+      .cmd { fill: #EAF2F8; }
+      .out { fill: #6F829A; opacity: 0.64; }
+      .muted { fill: #7F94AA; }
+      .comment { fill: #8198B5; }
+      .ok { fill: #86EFAC; }
+      .cursor { animation: blink 1.2s steps(2, end) infinite; }
+      .fade-1 { animation: fadeOut 6.5s ease-in-out infinite; }
+      .fade-2 { animation: fadeOut 6.5s ease-in-out .65s infinite; }
+      .fade-3 { animation: fadeOut 6.5s ease-in-out 1.3s infinite; }
+      @keyframes blink { 0%, 54% { opacity: 1; } 55%, 100% { opacity: 0; } }
+      @keyframes fadeOut { 0%, 14% { opacity: 0.08; } 30%, 72% { opacity: 0.76; } 100% { opacity: 0.08; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" rx="28" fill="#010716"/>
+  <path d="M0 0H1200V520H0Z" fill="url(#ubuntu)" opacity="0.92"/>
+  <path d="M126 118H1074M126 202H1074M126 286H1074M126 370H1074" stroke="#FFFFFF" stroke-opacity="0.025"/>
+  <path d="M208 72V448M362 72V448M516 72V448M670 72V448M824 72V448M978 72V448" stroke="#FFFFFF" stroke-opacity="0.025"/>
+
+  <g filter="url(#shadow)">
+    <rect x="126" y="70" width="948" height="380" rx="18" fill="url(#screen)" stroke="#243E5A"/>
+    <path d="M144 70H1056C1065.94 70 1074 78.06 1074 88V115H126V88C126 78.06 134.06 70 144 70Z" fill="#071A2F"/>
+    <path d="M126 115H1074" stroke="#243E5A"/>
+    <circle cx="158" cy="92.5" r="7" fill="#FF5F57"/>
+    <circle cx="182" cy="92.5" r="7" fill="#FFBD2E"/>
+    <circle cx="206" cy="92.5" r="7" fill="#28C840"/>
+    <text class="bar" x="238" y="97">bedirhandd@github: ~/Projects/totally-not-a-whim-project</text>
+  </g>
+
+  <g class="mono term" transform="translate(174 170)">
+    <text x="0" y="0">
+      <tspan class="prompt-user">$</tspan><tspan class="prompt-path"> backend</tspan><tspan class="muted"> git:(</tspan><tspan class="prompt-branch">main</tspan><tspan class="muted">)</tspan><tspan class="cmd"> uv run python manage.py migrate</tspan>
+    </text>
+    <text class="out fade-1" x="28" y="32">Applying core.0001_initial... OK</text>
+
+    <text x="0" y="78">
+      <tspan class="prompt-user">$</tspan><tspan class="prompt-path"> frontend</tspan><tspan class="muted"> git:(</tspan><tspan class="prompt-branch">main</tspan><tspan class="muted">)</tspan><tspan class="cmd"> npx sv create interface</tspan>
+    </text>
+    <text class="out fade-2" x="28" y="110">SvelteKit project scaffolded</text>
+
+    <text x="0" y="156">
+      <tspan class="prompt-user">$</tspan><tspan class="prompt-path"> systems</tspan><tspan class="muted"> git:(</tspan><tspan class="prompt-branch">main</tspan><tspan class="muted">)</tspan><tspan class="cmd"> cargo test --release</tspan>
+    </text>
+    <text class="out fade-3" x="28" y="188">test result: ok. 24 passed</text>
+
+    <text x="0" y="238">
+      <tspan class="prompt-user">$</tspan><tspan class="prompt-path"> devops</tspan><tspan class="muted"> git:(</tspan><tspan class="prompt-branch">main</tspan><tspan class="muted">)</tspan>
+    </text>
+    <rect class="cursor" x="218" y="220" width="15" height="24" fill="#FFFFFF"/>
+  </g>
+
+  <g transform="translate(802 152)">
+    <rect x="0" y="0" width="220" height="214" rx="14" fill="#031226" stroke="#243E5A"/>
+    <text class="mono tiny muted" x="18" y="31">notes.md</text>
+    <path d="M18 45H202" stroke="#243E5A" stroke-opacity="0.75"/>
+    <text class="mono term cmd" x="18" y="82">working</text>
+    <text class="mono term cmd" x="18" y="110">notes</text>
+    <text class="mono tiny comment" x="18" y="145"># complex web apps</text>
+    <text class="mono tiny comment" x="18" y="171"># low-level coding</text>
+    <text class="mono tiny comment" x="18" y="197"># cybersecurity</text>
+  </g>
+</svg>

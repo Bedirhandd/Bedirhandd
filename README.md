@@ -1,7 +1,20 @@
-<h3 align="center">A passionate full-stack developer from Turkiye</h3>
+<div align="center">
+  <img src="./assets/profile-signal.svg" alt="Bedirhandd - full-stack developer from Turkiye" width="100%" />
+</div>
 
-- I’m currently working on Web Development
+<br />
 
-- I’m currently learning Data Science and Fundamentals of Cyber Security.
+<h3 align="center">
+  Good times create bad developers.<br />
+  Bad developers create bad times.<br />
+  Bad times create good developers.<br />
+  Good developers create good times.
+</h3>
 
-- 📫 How to reach me **bedirhan@teknoes.com.tr**
+<p align="center">
+  Trying to build like the last line is my responsibility.
+</p>
+
+<p align="center">
+  <a href="mailto:bedirhan@teknoes.com.tr"><code>bedirhan@teknoes.com.tr</code></a>
+</p>
