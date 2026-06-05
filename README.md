@@ -5,15 +5,10 @@
 <br />
 
 <h3 align="center">
-  Good times create bad developers.<br />
-  Bad developers create bad times.<br />
-  Bad times create good developers.<br />
-  Good developers create good times.
+I build backend-heavy applications and tools with Python, Django, FastAPI, PostgreSQL, Docker, Linux, Astro, and Svelte(Kit).
+<br/>
+My work focuses on backend architecture, database modeling, deployment workflows, admin systems, technical SEO, and production reliability.
 </h3>
-
-<p align="center">
-  Trying to build like the last line is my responsibility.
-</p>
 
 <p align="center">
   <a href="mailto:bedirhan@teknoes.com.tr"><code>bedirhan@teknoes.com.tr</code></a>
